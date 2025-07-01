@@ -1,9 +1,35 @@
 class Pizza {
-  constructor(size, crust, cheese, toppings) {
+  constructor() {
+    this.size = "média"
+    this.crust = "tradicional"
+    this.cheese = false
+    this.toppings = []
+  }
+
+  setSize(size) {
     this.size = size
+    return this
+  }
+
+  setCrust(crust) {
     this.crust = crust
-    this.cheese = cheese || false
-    this.toppings = toppings || []
+    return this
+  }
+
+  addCheese() {
+    this.cheese = true
+    return this
+  }
+
+  addTopping(topping) {
+    this.toppings.push(topping)
+    return this
+  }
+
+  build() {
+    return new Pizza(
+      this.size, this.crust, this.cheese, this.toppings
+    )
   }
 }
 

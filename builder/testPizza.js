@@ -1,7 +1,16 @@
 const Pizza = require("./pizza")
 
-const margherita = new Pizza("grande", "fina", true, ["tomate", "manjericão"])
-const pepperoni = new Pizza("média", "tradicional", false, ["pepperoni"])
+const margherita = new Pizza()
+  .setSize("grande")
+  .setCrust("fina")
+  .addCheese()
+  .addTopping("tomate")
+  .addTopping("manjericão")
+  .build()
+
+const pepperoni = new Pizza()
+  .addTopping("pepperoni")
+  .build()
 
 console.log("margherita =>", margherita)
 console.log("pepperoni =>", pepperoni)
