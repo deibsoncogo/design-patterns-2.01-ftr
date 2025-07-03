@@ -1,4 +1,4 @@
-const PizzaBuilder = require("./pizza")
+const PizzaBuilder = require("./pizza-builder")
 const PizzaDirector = require("./pizza-director")
 
 const builder = new PizzaBuilder()
