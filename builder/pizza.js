@@ -1,5 +1,9 @@
 class Pizza {
   constructor() {
+    this.reset()
+  }
+
+  reset() {
     this.size = "média"
     this.crust = "tradicional"
     this.cheese = false
@@ -27,9 +31,9 @@ class Pizza {
   }
 
   build() {
-    return new Pizza(
-      this.size, this.crust, this.cheese, this.toppings
-    )
+    const pizza = new Pizza(this.size, this.crust, this.cheese, this.toppings)
+    this.reset()
+    return pizza
   }
 }
 
