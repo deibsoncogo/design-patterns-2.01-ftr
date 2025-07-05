@@ -1,6 +1,6 @@
 const Pizza = require("./pizza-builder")
 
-const margherita = new Pizza()
+const napolitana = new Pizza()
   .setSize("grande")
   .setCrust("fina")
   .addCheese()
@@ -12,5 +12,5 @@ const pepperoni = new Pizza()
   .addTopping("pepperoni")
   .build()
 
-console.log("margherita =>", margherita)
+console.log("napolitana =>", napolitana)
 console.log("pepperoni =>", pepperoni)

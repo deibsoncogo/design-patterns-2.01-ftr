@@ -4,8 +4,8 @@ const PizzaDirector = require("./pizza-director")
 const builder = new PizzaBuilder()
 const diretor = new PizzaDirector(builder)
 
-const margherita = diretor.makeMargherita()
+const napolitana = diretor.makeNapolitana()
 const pepperoni = diretor.makePepperoni()
 
-console.log("margherita =>", margherita)
+console.log("napolitana =>", napolitana)
 console.log("pepperoni =>", pepperoni)

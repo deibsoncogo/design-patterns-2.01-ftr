@@ -1,5 +1,5 @@
-const AudioPlayer = require("./audio-player")
-const VideoPlayer = require("./video-player")
+const AudioPlayer = require("./player/audio-player")
+const VideoPlayer = require("./player/video-player")
 
 class Adapter extends AudioPlayer {
   constructor() {

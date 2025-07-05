@@ -1,6 +1,6 @@
 class Logistic {
   createTransport() {
-    throw new Error("Método 'createTransport()' precisa ser implementado")
+    throw new Error("Método 'createTransport' precisa ser implementado")
   }
 
   deliverCargo() {

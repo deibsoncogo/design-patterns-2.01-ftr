@@ -3,7 +3,7 @@ class PizzaDirector {
     this.builder = builder
   }
 
-  makeMargherita() {
+  makeNapolitana() {
     return this.builder
       .setSize("grande")
       .setCrust("fina")
