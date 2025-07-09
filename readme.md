@@ -1,5 +1,4 @@
 # 🧩 Design Patterns – Principais Padrões de Projeto com Node.js
-
 Este projeto faz parte do módulo Design Patterns da pós-graduação em Desenvolvimento Full Stack pela Faculdade de Tecnologia Rocketseat.
 O objetivo deste módulo foi estudar e aplicar os principais padrões de projeto (design patterns) observados pela Gangue dos Quatro, divididos em três grupos: Criacionais, Estruturais e Comportamentais. Cada padrão foi implementado na prática com exemplos funcionais utilizando Node.js, combinando teoria com aplicação real.****
 
